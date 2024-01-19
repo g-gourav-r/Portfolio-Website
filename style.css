@@ -1,6 +1,9 @@
 body {
 	background-color: #fefae0;
-
+	background-image: url(./assets/boat.gif);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
 .row,
@@ -17,7 +20,7 @@ body {
 }
 
 .content-card {
-	background-color: #e9edc9;
+	background-color: rgba(233, 237, 201, 0.8);
 	border: 1px solid #ccd5ae;
 }
 
