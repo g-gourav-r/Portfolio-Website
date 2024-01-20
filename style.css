@@ -1,6 +1,6 @@
 body {
 	background-color: #fefae0;
-	background-image: url(./assets/boat.gif);
+	background-image: url(./assets/generic/boat.gif);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -16,14 +16,17 @@ body {
 }
 
 .row-item {
-	border-bottom: 0.25px solid #ccd5ae;
+	border-bottom: 2px solid #DBE7C9;
 }
 
 .content-card {
-	background-color: rgba(233, 237, 201, 0.8);
+	background-color: rgba(213, 240, 193, 0.8);
 	border: 1px solid #ccd5ae;
 }
 
+.custom-seperator{
+	border: 1px solid #576430;
+}
 .card {
 	background-color: transparent;
 	border: none;
@@ -32,11 +35,34 @@ body {
 .navbar {
 	background-color: #e9edc9;
 	color: #ccd5ae;
-	font-family: 'Rubik Burned', system-ui;
+	font-family: 'Mynerve', cursive;
 	font-weight: bolder;
 	border: 1px solid #ccd5ae;
 }
+.list-unstyled li {
+	margin-bottom: 10px;
+ }
 
+ .list-unstyled li i {
+	margin-right: 5px;
+	color: #576430;
+ }
+ .list-unstyled li a {
+	text-decoration: none;
+	color: #576430;
+ }
+
+ .list-unstyled li a:hover {
+	color: #ffff;
+ }
+ .row-item .col a {
+	text-decoration: none;
+	color: #576430; 
+ }
+
+ .row-item .col a:hover {
+	color: #ffff; 
+ }
 ul.timeline {
 	list-style-type: none;
 	position: relative;
