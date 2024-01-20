@@ -9,10 +9,11 @@ body {
 .row,
 body {
 	color: #576430;
+	font-family: 'Dosis', sans-serif;
 }
 
 .key-val-heading {
-	font-family: 'IBM Plex Sans Hebrew', sans-serif;
+	font-weight:bold; 
 }
 
 .row-item {
